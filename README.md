@@ -8,7 +8,7 @@ The goal was to transform transactional retail data into meaningful business ins
 
 ## Workflow
 
-The analysis followed a typical data analyst workflow:
+The analysis followed a typical/ usual workflow:
 
 **Define Business Questions → Prepare & Validate Data → Analyze Data → Build Visualizations → Identify Insights → Create Executive Dashboard**
 
@@ -23,7 +23,7 @@ The dataset contains:
 - Multiple Canadian provinces and cities
 - Online, Store, and Phone sales channels
 
-The dataset was created as a **synthetic dataset specifically for this portfolio project**. It is not official Canadian retail data.
+The dataset was created as a **synthetic dataset specifically for this portfolio project**. It is **NOT** official Canadian retail data.
 
 ## AI / Synthetic Data Disclosure
 
@@ -88,37 +88,42 @@ The dashboard follows a simple management-focused flow:
 
 ## Report Pages
 
-### 1. Overall Sales Performance
+### 1. Executive Dashboard
+
+Provides a high-level overview of sales, profitability, products, categories, provinces, and discount performance.
+
+### 2. Overall Sales Performance
 
 Analyzes sales and profit trends over time and identifies monthly and quarterly performance patterns.
 
-### 2. Product Performance
+### 3. Product Performance
 
 Analyzes product sales, product profitability, category performance, and the relationship between sales and profit.
 
-### 3. Customer Analysis
+### 4. Customer Analysis
 
 Analyzes customer segments, top customers, average order value, and purchasing behavior over time.
 
-### 4. Regional Performance
+### 5. Regional Performance
 
 Analyzes sales and profitability across provinces and cities to identify strong-performing and potentially weaker regions.
 
-### 5. Discounts & Profitability
+### 6. Discounts & Profitability
 
 Examines discount levels, profit margins, loss-making orders, and discount patterns across products and categories.
 
-### 6. Sales Channels
+### 7. Sales Channels
 
 Compares Online, Store, and Phone sales channels based on sales and profitability.
 
-### 7. Shipping & Operations
+### 8. Shipping & Operations
 
 Analyzes shipping method usage, shipping costs, and the relationship between shipping costs and profitability.
 
 ## Key Findings
 
-- Total sales were approximately **$1.99 million**, with approximately **$418.7K in profit**.
+- Total sales were **$1,985,898.75**, with **$418,656.69** in total profit.
+- Overall profit margin was approximately **21.08%**.
 - **Q4** generated the highest overall sales, with **November** being the strongest individual month.
 - **Laptop Pro 14** generated the highest product sales and profit.
 - **Computers** generated the highest category sales and total profit.
@@ -156,7 +161,41 @@ This project demonstrates how a data analyst can transform transactional data in
 
 ## Project Files
 
-- Power BI report (`.pbix`)
-- Source dataset (`.xlsx`)
-- Business Questions and Analysis document
-- Dashboard screenshots
+- `Retail_Sales_Customer_Analytics.pbix` — Power BI report
+- `Retail_Sales_Customer_Analytics.xlsx` — Source dataset
+- Business Questions and Analysis document — Detailed questions and findings
+- Dashboard screenshots — Visual examples of the completed Power BI report
+
+## Dashboard Screenshots
+
+### Executive Dashboard
+
+![Executive Dashboard](./Executive_Dasboard.png)
+
+### Overall Sales Performance
+
+![Overall Sales Performance](./Overall_Sales_Performance.png)
+
+### Product Performance
+
+![Product Performance](./Product_Performance.png)
+
+### Customer Analysis
+
+![Customer Analysis](./Customer_Analysis.png)
+
+### Regional Performance
+
+![Regional Performance](./Regional_Performance.png)
+
+### Discounts & Profitability
+
+![Discounts & Profitability](./Discounts_Profitability.png)
+
+### Sales Channels
+
+![Sales Channels](./Sales_Channels.png)
+
+### Shipping & Operations
+
+![Shipping & Operations](./Shipping_Operations.png)
